@@ -10,10 +10,11 @@ handles.subtitle = annotation('textbox',[.1 .7 .9 .2],'string','Here are some pl
 handles.Axes.Line = axes('Position', [.15 .5 .3 .2]);
 title('Line plot')
 
-
 %% A scatter plot
 handles.Axes.Scatter = axes('Position', [2*.15+.3 .5 .3 .2]);
 title('Scatter ploot')
+scatter(rand(10,1),rand(10,1))
+
 
 %% A bar plot
 handles.Axes.Bar = axes('Position', [.15 .15 .3 .2]);
