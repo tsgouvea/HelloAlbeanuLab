@@ -13,7 +13,7 @@ title('Line plot')
 %% A scatter plot
 handles.Axes.Scatter = axes('Position', [2*.15+.3 .5 .3 .2]);
 title('Scatter ploot')
-scatter(rand(10,1),rand(10,1))
+scatter(rand(15,1),rand(15,1))
 
 
 %% A bar plot
