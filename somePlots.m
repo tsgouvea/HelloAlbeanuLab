@@ -9,6 +9,7 @@ handles.subtitle = annotation('textbox',[.1 .7 .9 .2],'string','Here are some pl
 
 %% A line plot
 handles.Axes.Line = axes('Position', [.15 .5 .3 .2]);
+plot([rand(10,1) rand(10,1)],'LineWidth',2)
 title('Line plot')
 
 %% A scatter plot
