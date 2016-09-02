@@ -18,8 +18,8 @@ scatter(rand(15,1),rand(15,1))
 
 
 %% A bar plot
-bar(rand(10,1));
 handles.Axes.Bar = axes('Position', [.15 .15 .3 .2]);
+bar(rand(10,1));
 title('Bar plot')
 
 %% A pie chart
