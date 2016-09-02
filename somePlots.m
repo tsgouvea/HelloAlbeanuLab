@@ -24,3 +24,6 @@ title('Bar plot')
 %% A pie chart
 handles.Axes.Pie = axes('Position', [2*.15+.3 .15 .3 .2]);
 title('Pie chart')
+
+
+%Cristina's commenmt
