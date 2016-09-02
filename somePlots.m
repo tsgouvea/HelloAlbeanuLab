@@ -16,6 +16,7 @@ handles.Axes.Scatter = axes('Position', [2*.15+.3 .5 .3 .2]);
 title('Scatter ploot')
 
 %% A bar plot
+bar(rand(10,1));
 handles.Axes.Bar = axes('Position', [.15 .15 .3 .2]);
 title('Bar plot')
 
